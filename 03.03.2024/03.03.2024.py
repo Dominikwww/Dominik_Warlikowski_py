@@ -136,3 +136,8 @@ while licznik < len(lista):
         licznik += 1
 else:
     print('nie ma')
+
+# if zm in lista:
+#     print('jest')
+# else:
+#     print('nie ma')
