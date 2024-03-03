@@ -28,3 +28,36 @@
 # a = 5
 # b = 3.33
 # print('liczba a jest równa {:d} {:.2f}'.format(a, b))
+
+# a = input('Wpisz liczbę: ')
+# a = int(a)
+# print(5*a)
+# print(type(a))
+
+# sys.stdout.write('Wprowadz liczbe: ')
+# b = sys.stdin.readline()  # dodaje na końcu \n
+# print(b)
+# print(type(b))
+
+lista = [5, 4, 3, 5, 6, 'a', 'b', [1, 2, 3, 1], 'kkk', 'test']
+print(lista)
+lista.append(67)
+print(lista)
+lista.insert(2, 'c')
+print(lista)
+lista.extend(['3', 3, 4, 6, 1])
+print(lista)
+lista.pop(2)
+print(lista)
+lista.pop()
+print(lista)
+lista.remove(3)
+print(lista)
+del lista[1]
+print(lista)
+# del lista
+# print(lista)
+lista.reverse()
+print(lista)
+# lista.sort()
+# print(lista)
