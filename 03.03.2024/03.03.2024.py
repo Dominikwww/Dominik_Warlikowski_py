@@ -102,8 +102,37 @@
 # for i in lista:
 #     print(i)
 
-for i in range(0, 5):
-    for j in range(0, 5):
-        result = i+j
-        print(result)
-    print('')
+# for i in range(0, 5):
+#     for j in range(0, 5):
+#         result = i+j
+#         print(result)
+#     print('')
+
+# licznik = 0
+# while licznik < len(lista):
+#     print(lista[licznik])
+#     licznik += 1
+# else:
+#     print('\nKONIEC')
+
+# licznik = 0
+# while licznik != 10:
+#     if licznik == 7:
+#         print(licznik)
+#         break
+#     else:
+#         licznik += 1
+# else:
+#     print('licznik')
+
+lista = [1, 2, 44, 33, 11, 15, 7, 22]
+zm = int(input('liczba: '))
+licznik = 0
+while licznik < len(lista):
+    if zm - lista[licznik] == 0:
+        print('jest 0')
+        break
+    else:
+        licznik += 1
+else:
+    print('nie ma')
