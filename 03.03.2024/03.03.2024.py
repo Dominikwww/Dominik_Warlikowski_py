@@ -25,6 +25,6 @@
 # m = 2
 # print(k+' '+k2+'\n'+str(m))
 
-a = 5
-b = 3.33
-print('liczba a jest równa {:d} {:.2f}'.format(a, b))
+# a = 5
+# b = 3.33
+# print('liczba a jest równa {:d} {:.2f}'.format(a, b))
