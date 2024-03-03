@@ -39,25 +39,71 @@
 # print(b)
 # print(type(b))
 
-lista = [5, 4, 3, 5, 6, 'a', 'b', [1, 2, 3, 1], 'kkk', 'test']
-print(lista)
-lista.append(67)
-print(lista)
-lista.insert(2, 'c')
-print(lista)
-lista.extend(['3', 3, 4, 6, 1])
-print(lista)
-lista.pop(2)
-print(lista)
-lista.pop()
-print(lista)
-lista.remove(3)
-print(lista)
-del lista[1]
-print(lista)
-# del lista
+# lista = [5, 4, 3, 5, 6, 'a', 'b', [1, 2, 3, 1], 'kkk', 'test']
 # print(lista)
-lista.reverse()
-print(lista)
-# lista.sort()
+# lista.append(67)
 # print(lista)
+# lista.insert(2, 'c')
+# print(lista)
+# lista.extend(['3', 3, 4, 6, 1])
+# print(lista)
+# lista.pop(2)
+# print(lista)
+# lista.pop()
+# print(lista)
+# lista.remove(3)
+# print(lista)
+# del lista[1]
+# print(lista)
+# # del lista
+# # print(lista)
+# lista.reverse()
+# print(lista)
+# # lista.sort()
+# # print(lista)
+
+# slownik = {'klucz': 'wartosc', 1: 2, 'a': 1, 4: 'b', 1: 4}
+# print(slownik)
+# print(slownik[1])
+# slownik[3] = 'aaa'
+# print(slownik)
+# slownik.pop(4)
+# print(slownik)
+# print(slownik.keys())
+# print(slownik.values())
+# del slownik['a']
+# print(slownik)
+
+# a = 6
+# b = 7
+#
+# if a > b:
+#     print(a)
+# elif a == b:
+#     print(a+2*b)
+# else:
+#     print(b)
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+
+# if (a > b) & (c > d):
+#     print(a, c)
+# else:
+#     print(b, d)
+
+# for i in range(2, 8, 2):
+#     print(i)
+# else:
+#     print('koniec')
+
+# for i in lista:
+#     print(i)
+
+for i in range(0, 5):
+    for j in range(0, 5):
+        result = i+j
+        print(result)
+    print('')
